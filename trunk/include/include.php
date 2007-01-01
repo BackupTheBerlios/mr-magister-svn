@@ -1,10 +1,16 @@
 <?php
 
 	define("TEMPLATE_PATH", "include/templates/");
+	
+	//enter your own db_server here
 	define("SERVER","localhost");
-	define("USER", "cicero");
-	define("PASS","plinius");
-	define("DATABASE", "magister");
+	
+	//db user, password, database
+	define("USER", "username");
+	define("PASS","password");
+	define("DATABASE", "db_name");
+	
+	
 	define("BASEDIR", $_SERVER['DOCUMENT_ROOT']);
 	
 ?>
