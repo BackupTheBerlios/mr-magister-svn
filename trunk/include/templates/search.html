@@ -1,0 +1,15 @@
+[if searchresults]
+	<table width=50%>
+		<tr>
+			<td>ID</td>
+			<td>Text</td>
+			<td>Relevance</td>
+		<tr>
+		{searchresults}
+	</table>
+
+[if none]
+	<b>Kein Suchergebnisse! Bitte versuchen Sie eine andere Anfrage. min. 4 Zeichen.</b>
+
+[if too short]
+	<b>Ihr Suchwort war leider zu kurz.... Mindestens <i>vier</i> Buchstaben!</b>

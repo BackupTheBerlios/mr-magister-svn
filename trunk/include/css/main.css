@@ -1,0 +1,11 @@
+/* Main*/
+/*Workaround for IE and netscape*/
+body{ text-align: center;}
+div#wrapper	{
+	
+	margin: auto;
+	width: 1000px;
+	text-align: left;
+
+	
+}	
